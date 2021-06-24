@@ -1,6 +1,6 @@
 # Guilty Gear Strive Character Quiz
 
-<script src="questions.js"></script>
+<head><script type="text/javascript" src="questions.js"></script></head>
 
 ## Questions
 
