@@ -3,15 +3,14 @@
 ## Questions
 
 ### 1 - What's most important to you?
-    - Doing one thing and doing it well
-    - Having tools for every situation
-    - How well I emotionally connect with my character
-    - Aesthetics/feeling suitably rewarded when I perform well
-
-<input type="radio" id="1_one_thing" name="most_important" value="Doing one thing and doing it well">
-<input type="radio" id="1_tools" name="most_important" value="Having tools for every situation">
-<input type="radio" id="1_emotions" name="most_important" value="How well I emotionally connect with my character">
-<input type="radio" id="1_aesthetics" name="most_important" value="Aesthetics/feeling suitably rewarded when I perform well">
+<input type="radio" id="1_one_thing" name="most_important">
+<label for="1_one_thing">Doing one thing and doing it well</label><br>
+<input type="radio" id="1_tools" name="most_important">
+<label for="1_tools">Having tools for every situation</label><br>
+<input type="radio" id="1_emotions" name="most_important">
+<label for="1_emotions">How well I emotionally connect with my character</label><br>
+<input type="radio" id="1_aesthetics" name="most_important">
+<label for="1_aesthetics">Aesthetics/feeling suitably rewarded when I perform well</label><br><br>
 
 ### Skipping character specific questions atm
 
