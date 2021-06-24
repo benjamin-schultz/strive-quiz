@@ -3,14 +3,15 @@
 ## Questions
 
 ### 1 - What's most important to you?
-<input type="radio" id="1_one_thing" name="most_important">
-<label for="1_one_thing">Doing one thing and doing it well</label><br>
+<input type="radio" name="most_important" value="1_one_thing"> Doing one thing and doing it well <br>
 <input type="radio" id="1_tools" name="most_important">
 <label for="1_tools">Having tools for every situation</label><br>
 <input type="radio" id="1_emotions" name="most_important">
 <label for="1_emotions">How well I emotionally connect with my character</label><br>
 <input type="radio" id="1_aesthetics" name="most_important">
 <label for="1_aesthetics">Aesthetics/feeling suitably rewarded when I perform well</label><br><br>
+
+<input type="button" name="btn" value="Show">
 
 ### Skipping character specific questions atm
 
