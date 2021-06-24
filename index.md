@@ -13,7 +13,7 @@
 <input type="radio" id="1_aesthetics" name="most_important">
 <label for="1_aesthetics">Aesthetics/feeling suitably rewarded when I perform well</label><br><br>
 
-<input type="button" name="btn" value="Show">
+<button id="btn" onclick="getradio()">show</button>
 
 ### Skipping character specific questions atm
 

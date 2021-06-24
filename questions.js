@@ -1,9 +1,8 @@
-const btn = document.getElementsByName('btn')
-btn.onClick = function () {
+function getradio() {
     var radios = document.getElementsByName('most_important');
-    for (var i = 0, length = radio.length; i < length; i++) {
+    for (var i = 0, length = radios.length; i < length; i++) {
         if (radios[i].checked) {
-            alert(radios[i].value)
+            document.getElementById('btn').innerHTML = radios[i].id;
             break;
         }
     }
