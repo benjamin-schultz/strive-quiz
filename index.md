@@ -5,7 +5,8 @@
 ## Questions
 
 ### 1 - What's most important to you?
-<input type="radio" name="most_important" value="1_one_thing"> Doing one thing and doing it well <br>
+<input type="radio" id="1_one_thing" name="most_important"> 
+<label for="1_one_thing">Doing one thing and doing it well</label><br>
 <input type="radio" id="1_tools" name="most_important">
 <label for="1_tools">Having tools for every situation</label><br>
 <input type="radio" id="1_emotions" name="most_important">
@@ -18,12 +19,18 @@
 ### Skipping character specific questions atm
 
 ### 2 - What sort of moral system do you like in a character?
-    - Any sort of "good". I don't really enjoy playing as assholes.
-    - Good intentions that bend rules to accomplish their goals. Like either Chaotic Good or a jerk with a heart of gold.
-    - I like pure "good" or heroic characters, not the morally grey sort
-    - I like neutral characters
-    - I love to play the villain!
-    - I have no strong feelings one way or another
+<input type="radio" id="2_any_good" name="moral_system">
+<label for="2_any_good">Any sort of "good". I don't really enjoy playing as assholes </label><br>
+<input type="radio" id="2_chaotic_good" name="moral_system">
+<label for="2_chaotic_good">Good intentions that bend rules to accomplish their goals. Like either Chaotic Good or a jerk with a heart of gold.</label><br>
+<input type="radio" id="2_pure_good" name="moral_system">
+<label for="2_pure_good">I like pure "good" or heroic characters, not the morally grey sort</label><br>
+<input type="radio" id="2_neutral" name="moral_system">
+<label for="2_neutral">I like neutral characters</label><br>
+<input type="radio" id="2_evil" name="moral_system">
+<label for="2_evil">I love to play the villain!</label><br>
+<input type="radio" id="2_no_opinion" name="moral_system">
+<label for="2_no_opinion">I have no strong feelings one way or another</label><br><br>
 
 ### 3 - Do you have a character gender preference?
     - Strongly male
