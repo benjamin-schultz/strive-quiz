@@ -1,5 +1,7 @@
 # Guilty Gear Strive Character Quiz
 
+<script src="questions.js"></script>
+
 ## Questions
 
 ### 1 - What's most important to you?
