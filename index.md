@@ -14,7 +14,6 @@
 <input type="radio" id="1_aesthetics" name="most_important">
 <label for="1_aesthetics">Aesthetics/feeling suitably rewarded when I perform well</label><br><br>
 
-<button id="btn" onclick="getradio()">show</button>
 
 ### Skipping character specific questions atm
 
@@ -33,38 +32,62 @@
 <label for="2_no_opinion">I have no strong feelings one way or another</label><br><br>
 
 ### 3 - Do you have a character gender preference?
-    - Strongly male
-    - male
-    - Female
-    - Strongly Female
-    - I like gender subversive or androgynous characters
-    - None. Please don't factor gender into my result
+<input type="radio" id="3_strongly_male" name="gender">
+<label for="3_strongly_male">Strongly male</label><br>
+<input type="radio" id="3_male" name="gender">
+<label for="3_male">Male</label><br>
+<input type="radio" id="3_female" name="gender">
+<label for="3_female">Female</label><br>
+<input type="radio" id="3_strongly_female" name="gender">
+<label for="3_strongly_female">Strongly Female</label><br>
+<input type="radio" id="3_subversive" name="gender">
+<label for="3_subversive">I like gender subversive or androgynous characters</label><br>
+<input type="radio" id="3_none" name="gender">
+<label for="3_none">None. Please don't factor gender into my result</label><br><br>
 
 ### 4 - When in a match, whats your favourite thing to do?
-    - Keeping the pressure on my opponent
-    - Outmanoeuvering my foe
-    - Mindgames!
-    - Executing the right combos in the right situations
-    - None of the above/I haven't played any fighting games yet
+<input type="radio" id="4_pressure" name="favourite">
+<label for="4_pressure">Keeping the pressure on my opponent</label><br>
+<input type="radio" id="4_outmanoeuvering" name="favourite">
+<label for="4_outmanoeuvering">Outmanoeuvering my foe</label><br>
+<input type="radio" id="4_mindgames" name="favourite">
+<label for="4_mindgames">Mindgames!</label><br>
+<input type="radio" id="4_combos" name="favourite">
+<label for="4_combos">Executing the right combos in the right situations</label><br>
+<input type="radio" id="4_none" name="favourite">
+<label for="4_none">None of the above/I haven't played any fighting games yet</label><br><br>
 
 ### 5 - Whats the most important or enjoyable quality in a character for you?
-    - Damage. Everything else is secondary
-    - Health Points. I want to last long in combat
-    - Mobility. I like going fast or enjoy unconventional movement options
-    - Utility. Give me a lot of tricks, tools and options to play with
-    - I would prefer to play an all-rounder
+<input type="radio" id="5_damage" name="important">
+<label for="5_damage">Damage. Everything else is secondary</label><br>
+<input type="radio" id="5_health" name="important">
+<label for="5_health">Health Points. I want to last long in combat</label><br>
+<input type="radio" id="5_mobility" name="important">
+<label for="5_mobiliy">Mobility. I like going fast or enjoy unconventional movement options</label><br>
+<input type="radio" id="5_utility" name="important">
+<label for="5_utility">Utility. Give me a lot of tricks, tools and options to play with</label><br>
+<input type="radio" id="5_all_rounder" name="important">
+<label for="5_all_rounder">I would prefer to play an all-rounder</label><br><br>
 
 ### 6 - Do you have fun when zoning?
-    - Yes! Very much so
-    - Yes
-    - No/no preference
-    - Hell NO
+<input type="radio" id="6_very_yes" name="zoning">
+<label for="6_very_yes">Yes! Very much so</label><br>
+<input type="radio" id="6_yes" name="zoning">
+<label for="6_yes">Yes</label><br>
+<input type="radio" id="6_no" name="zoning">
+<label for="6_no">No/no preference</label><br>
+<input type="radio" id="6_very_no" name="zoning">
+<label for="6_very_no">Hell NO</label><br><br>
 
 ### 7 - Do you have fun playing with a rushdown playstyle?
-    - Definitely!
-    - I do
-    - No/no preference
-    - I hate rushdown gameplay
+<input type="radio" id="6_very_yes" name="rushdown">
+<label for="6_very_yes">Definitely!</label><br>
+<input type="radio" id="6_yes" name="rushdown">
+<label for="6_yes">I do</label><br>
+<input type="radio" id="6_no" name="rushdown">
+<label for="6_no">No/no preference</label><br>
+<input type="radio" id="6_very_no" name="rushdown">
+<label for="6_very_no">I hate rushdown gameplay</label><br><br>
 
 ### 8 - Do you enjoy playing the one player game?
     - I love getting opponent into a situation where they cannot really do anything
@@ -73,3 +96,5 @@
     - No preference
 
     
+<button id="get_results" onclick="get_results()">Get Results</button>
+<label id="result_label"><br>Results go here<br></label>
