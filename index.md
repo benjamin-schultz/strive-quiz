@@ -18,31 +18,31 @@
 ### Skipping character specific questions atm
 
 ### 2 - What sort of moral system do you like in a character?
-<input type="radio" id="2_any_good" name="moral_system">
+<input type="radio" id="any_good" name="moral_system" checked>
 <label for="2_any_good">Any sort of "good". I don't really enjoy playing as assholes </label><br>
-<input type="radio" id="2_chaotic_good" name="moral_system">
+<input type="radio" id="chaotic_good" name="moral_system">
 <label for="2_chaotic_good">Good intentions that bend rules to accomplish their goals. Like either Chaotic Good or a jerk with a heart of gold.</label><br>
-<input type="radio" id="2_pure_good" name="moral_system">
+<input type="radio" id="pure_good" name="moral_system">
 <label for="2_pure_good">I like pure "good" or heroic characters, not the morally grey sort</label><br>
-<input type="radio" id="2_neutral" name="moral_system">
+<input type="radio" id="neutral" name="moral_system">
 <label for="2_neutral">I like neutral characters</label><br>
-<input type="radio" id="2_evil" name="moral_system">
+<input type="radio" id="evil" name="moral_system">
 <label for="2_evil">I love to play the villain!</label><br>
-<input type="radio" id="2_no_opinion" name="moral_system">
+<input type="radio" id="no_opinion" name="moral_system">
 <label for="2_no_opinion">I have no strong feelings one way or another</label><br><br>
 
 ### 3 - Do you have a character gender preference?
-<input type="radio" id="3_strongly_male" name="gender">
+<input type="radio" id="strongly_male" name="gender">
 <label for="3_strongly_male">Strongly male</label><br>
-<input type="radio" id="3_male" name="gender">
+<input type="radio" id="male" name="gender">
 <label for="3_male">Male</label><br>
-<input type="radio" id="3_female" name="gender">
+<input type="radio" id="female" name="gender">
 <label for="3_female">Female</label><br>
-<input type="radio" id="3_strongly_female" name="gender">
+<input type="radio" id="strongly_female" name="gender">
 <label for="3_strongly_female">Strongly Female</label><br>
-<input type="radio" id="3_subversive" name="gender">
+<input type="radio" id="subversive" name="gender">
 <label for="3_subversive">I like gender subversive or androgynous characters</label><br>
-<input type="radio" id="3_none" name="gender">
+<input type="radio" id="none" name="gender">
 <label for="3_none">None. Please don't factor gender into my result</label><br><br>
 
 ### 4 - When in a match, whats your favourite thing to do?
@@ -97,4 +97,6 @@
 
     
 <button id="get_results" onclick="get_results()">Get Results</button>
-<label id="result_label"><br>Results go here<br></label>
+<br>
+<label id="results_label">Results go here</label>
+<br>
