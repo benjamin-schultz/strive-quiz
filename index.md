@@ -1,4 +1,3 @@
-<html>
 # Guilty Gear Strive Character Quiz
 
 <head><script type="text/javascript" src="questions.js"></script>
@@ -188,4 +187,3 @@
 <br>
 <label id="results_label">Results go here</label>
 <br>
-</html>
