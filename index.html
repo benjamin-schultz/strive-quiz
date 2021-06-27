@@ -7,25 +7,18 @@
 ## Questions
 
 ### 1 - What's most important to you?
-<input type="radio" id="one_thing" name="most_important"> 
-<label for="one_thing">Doing one thing and doing it well</label><br>
-<input type="radio" id="tools" name="most_important">
-<label for="tools">Having tools for every situation</label><br>
-<input type="radio" id="emotions" name="most_important">
-<label for="emotions">How well I emotionally connect with my character</label><br>
-<input type="radio" id="aesthetics" name="most_important">
-<label for="aesthetics">Aesthetics/feeling suitably rewarded when I perform well</label><br><br>
-
+<input type="radio" id="specialist" name="playstyle" checked> 
+<label for="specialist">Doing one thing and doing it well</label><br>
+<input type="radio" id="prepared" name="playstyle">
+<label for="prepared">Having tools for every situation</label><br>
+<input type="radio" id="rewarding" name="playstyle">
+<label for="rewarding">Feeling suitably rewarded when I perform well</label><br><br>
 
 ### Skipping character specific questions atm
 
 ### 2 - What sort of moral system do you like in a character?
-<input type="radio" id="any_good" name="moral_system" checked>
+<input type="radio" id="good" name="moral_system" checked>
 <label for="any_good">Any sort of "good". I don't really enjoy playing as assholes </label><br>
-<input type="radio" id="chaotic_good" name="moral_system">
-<label for="chaotic_good">Good intentions that bend rules to accomplish their goals. Like either Chaotic Good or a jerk with a heart of gold.</label><br>
-<input type="radio" id="pure_good" name="moral_system">
-<label for="pure_good">I like pure "good" or heroic characters, not the morally grey sort</label><br>
 <input type="radio" id="neutral" name="moral_system">
 <label for="neutral">I like neutral characters</label><br>
 <input type="radio" id="evil" name="moral_system">
@@ -94,7 +87,34 @@
     - I am fine with doing it sometimes, if the need arises
     - I would rather play a more footsies/neutral/two player game
     - No preference
+<input type="radio" id="yes" name="oneplayer">
+<label for="yes">I love getting the opponent into a situation where they cannot really do anything</label><br>
+<input type="radio" id="sometimes" name="oneplayer">
+<label for="sometimes">I am fine with doing it sometimes, if the need arises</label><br>
+<input type="radio" id="no" name="oneplayer">
+<label for="no">I would rather play a more footsies/neutral/two player game</label><br>
+<input type="radio" id="none" name="oneplayer">
+<label for="none">No preference</label><br><br>
 
+### 9 - What range are you most comfortable fighting at?
+<input type="radio" id="close" name="range">
+<label for="close">I'm a close-range fighter</label><br>
+<input type="radio" id="mid" name="range">
+<label for="mid">I feel most comfortable at mid range</label><br>
+<input type="radio" id="long" name="range">
+<label for="long">I most enjoy fighting at long ranges</label><br>
+<input type="radio" id="all" name="range">
+<label for="all">I want to be able to handle all ranges!</label><br>
+<input type="radio" id="none" name="range">
+<label for="none">No idea/anything goes</label><br><br>
+
+### 10 - Does the idea of stances or multiple movesets in the same character sound appealing?
+<input type="radio" id="yes" name="stance">
+<label for="yes">I like the idea and it can help my game or sounds really fun</label><br>
+<input type="radio" id="no" name="stance">
+<label for="no">I would prefer to just play a character with one moveset</label><br>
+<input type="radio" id="none" name="stance">
+<label for="none">No preference</label><br><br>
     
 <button id="get_results" onclick="get_results()">Get Results</button>
 <br>
