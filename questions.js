@@ -24,7 +24,8 @@ function get_results() {
         check_characters(result);
     }
 
-    document.getElementById("results_label").innerHTML = characters.chipp.score + " " + characters.faust.score;
+    var winner = check_winner();
+    document.getElementById("results_label").innerHTML = winner[0].name;
 };
 
 

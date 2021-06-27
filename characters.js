@@ -15,7 +15,7 @@ characters = {
         gameplan: ["risc", "frametrap"],
         setplay: "neutral",
         projectile: "limited",
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "neutral",
         score: 0
@@ -36,7 +36,7 @@ characters = {
         gameplan: ["frametrap"],
         setplay: "oki",
         projectile: ["standard", "special"],
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "projectile",
         score: 0
@@ -120,7 +120,7 @@ characters = {
         gameplan: ["highlow", "leftright"],
         setplay: ["no"],
         projectile: "limited",
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "lots",
         score: 0
@@ -162,7 +162,7 @@ characters = {
         gameplan: ["frametrap", "risc"],
         setplay: ["neutral"],
         projectile: "no",
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "neutral",
         score: 0
@@ -246,7 +246,7 @@ characters = {
         gameplan: ["highlow", "frametrap", "leftright"],
         setplay: "neutral",
         projectile: "standard",
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "neutral",
         score: 0
@@ -309,7 +309,7 @@ characters = {
         gameplan: ["frametrap", "risc"],
         setplay: "no",
         projectile: "no",
-        reversal: "meterless",
+        reversal: ["meterless", "metered"],
         resource: "no",
         vortex: "neutral",
         score: 0
@@ -339,4 +339,13 @@ function check_strings(char, result) {
 
 function check_numbers(char, result) {
     characters[char].score += result.amount * characters[char][result.key];
+}
+
+function check_winner() {
+    var winners = [];
+    for (var char in characters) {
+        winners.push({score: characters[char].score, name: characters[char].name}); 
+    }
+    winners.sort((a, b) => b.score - a.score);
+    return winners;
 }
