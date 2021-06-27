@@ -180,8 +180,7 @@
 <label for="projectile">I want the setplay/projectile pressure as they are getting up</label><br>
 <input type="radio" id="lots" name="vortex">
 <label for="lots">I want to have so many mixup options that the opponent will have to make a big guess on wakeup or risk getting blown up</label><br>
-<input type="radio" id="none" name="vortex">
-<label for="none">No preference</label><br><br>
+<label><input type="radio" id="none" name="vortex"> No preference</label>
 
 <button id="get_results" onclick="get_results()">Get Results</button>
 <br>
