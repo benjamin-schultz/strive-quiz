@@ -14,8 +14,6 @@
 <input type="radio" id="rewarding" name="playstyle">
 <label for="rewarding">Feeling suitably rewarded when I perform well</label><br><br>
 
-### Skipping character specific questions atm
-
 ### 2 - What sort of moral system do you like in a character?
 <input type="radio" id="good" name="moral_system" checked>
 <label for="any_good">Any sort of "good". I don't really enjoy playing as assholes </label><br>
@@ -83,10 +81,6 @@
 <label for="strong_no">I hate rushdown gameplay</label><br><br>
 
 ### 8 - Do you enjoy playing the one player game?
-    - I love getting opponent into a situation where they cannot really do anything
-    - I am fine with doing it sometimes, if the need arises
-    - I would rather play a more footsies/neutral/two player game
-    - No preference
 <input type="radio" id="yes" name="oneplayer">
 <label for="yes">I love getting the opponent into a situation where they cannot really do anything</label><br>
 <input type="radio" id="sometimes" name="oneplayer">
@@ -115,7 +109,81 @@
 <label for="no">I would prefer to just play a character with one moveset</label><br>
 <input type="radio" id="none" name="stance">
 <label for="none">No preference</label><br><br>
-    
+
+### 11 - Are you ok with charge motions for your special moves?
+<input type="radio" id="yes" name="charge">
+<label for="yes">I like using them for a lot for my combos, spacing and setups</label><br>
+<input type="radio" id="sometimes" name="charge">
+<label for="sometimes">If it is just for the occasional neutral/defensive use, they are cool with me</label><br>
+<input type="radio" id="no" name="charge">
+<label for="no">I want to use a character that has 0 charge motions for their special moves</label><br>
+<input type="radio" id="none" name="charge">
+<label for="none">No preference</label><br><br>
+
+### 12 - What is your preferred way of opening people up?
+<input type="radio" id="frametrap" name="gameplan">
+<label for="frametrap">The simple Frame Trap/throw game</label><br>
+<input type="radio" id="risc" name="gameplan">
+<label for="risc">RISC/Blockstring Pressure</label><br>
+<input type="radio" id="grab" name="gameplan">
+<label for="grab">Command Grab</label><br>
+<input type="radio" id="highlow" name="gameplan">
+<label for="highlow">The High/Low mixup</label><br>
+<input type="radio" id="leftright" name="gameplan">
+<label for="leftright">The Left/Right mixup</label><br>
+<input type="radio" id="none" name="gameplan">
+<label for="none">No preference</label><br><br>
+
+### 13 - Are you ok with having setplay in your moveset?
+<input type="radio" id="neutral" name="setplay">
+<label for="neutral">I like the idea of setplay as a basis for starting my offense/neutral</label><br>
+<input type="radio" id="oki" name="setplay">
+<label for="oki">I'm fine with setplay as a way of setting pressure up on the opponent on knockdown</label><br>
+<input type="radio" id="no" name="setplay">
+<label for="no">I would rather have a moveset that has minimal to no setplay</label><br>
+<input type="radio" id="none" name="setplay">
+<label for="none">No preference</label><br><br>
+
+### 14 - Would you like a projectile?
+<input type="radio" id="standard" name="projectile">
+<label for="horizontal">I want at least a standard full screen horizontal moving one</label><br>
+<input type="radio" id="limited" name="projectile">
+<label for="limited">As long as it controls good space, it doesn't have to be full screen or horizontal moving</label><br>
+<input type="radio" id="special" name="projectile">
+<label for="special">I want a tricky, meter-only, controllable, or some kind of unique project</label><br>
+<input type="radio" id="no" name="projectile">
+<label for="no">I do not need projectiles to win</label><br>
+<input type="radio" id="none" name="projectile">
+<label for="none">No preference</label><br><br>
+
+### 15 - What kind of reversal would you like?
+<input type="radio" id="meterless" name="reversal">
+<label for="meterless">I need a meterless reversal</label><br>
+<input type="radio" id="metered" name="reversal">
+<label for="metered">Metered-only reversals are fine</label><br>
+<input type="radio" id="none" name="reversal">
+<label for="none">No preference</label><br><br>
+
+### 16 - Pick the character resource type that sounds the most fun
+<input type="radio" id="meter" name="resource">
+<label for="meter">Managing an additional meter sounds fun</label><br>
+<input type="radio" id="ammo" name="resource">
+<label for="ammo">Maybe something like ammunition, or a summoned projectile that I have to keep track of</label><br>
+<input type="radio" id="no" name="resource">
+<label for="no">Nothing special. I'll stick to the basic meter</label>
+<input type="radio" id="none" name="resource">
+<label for="none">No preference</label><br><br>
+
+### 17 - How good do you want your vortex/knockdown pressure to be?
+<input type="radio" id="neutral" name="vortex">
+<label for="neutral">The same options I would have starting a neutral blockstring is fine</label><br>
+<input type="radio" id="projectile" name="vortex">
+<label for="projectile">I want the setplay/projectile pressure as they are getting up</label><br>
+<input type="radio" id="lots" name="vortex">
+<label for="lots">I want to have so many mixup options that the opponent will have to make a big guess on wakeup or risk getting blown up</label><br>
+<input type="radio" id="none" name="vortex">
+<label for="none">No preference</label><br><br>
+
 <button id="get_results" onclick="get_results()">Get Results</button>
 <br>
 <label id="results_label">Results go here</label>

@@ -9,6 +9,15 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "sometimes",
+        range: ["close", "mid"],
+        stance: "no",
+        charge: "no",
+        gameplan: ["risc", "frametrap"],
+        setplay: "neutral",
+        projectile: "limited",
+        reversal: "meterless",
+        resource: "no",
+        vortex: "neutral",
         score: 0
     },
     ky: {
@@ -21,6 +30,15 @@ characters = {
         zoning: 0.5,
         rushdown: 0.5,
         oneplayer: "no",
+        range: ["mid", "all"],
+        stance: "no",
+        charge: "no",
+        gameplan: ["frametrap"],
+        setplay: "oki",
+        projectile: ["standard", "special"],
+        reversal: "meterless",
+        resource: "no",
+        vortex: "projectile",
         score: 0
     },
     May: {
@@ -33,6 +51,15 @@ characters = {
         zoning: 0.25,
         rushdown: 0.75,
         oneplayer: "no",
+        range: "mid",
+        stance: "no",
+        charge: "yes",
+        gameplan: ["grab", "highlow"],
+        setplay: ["neutral", "oki"],
+        projectile: ["limited", "special"],
+        reversal: "metered",
+        resource: "no",
+        vortex: "projectile",
         score: 0
     },
     faust: {
@@ -45,6 +72,15 @@ characters = {
         zoning: 1.0,
         rushdown: 0.0,
         oneplayer: "no",
+        range: "long",
+        stance: "no",
+        charge: "no",
+        gameplan: ["grab", "highlow"],
+        setplay: ["no"],
+        projectile: ["limited","special"],
+        reversal: "metered",
+        resource: "no",
+        vortex: "projectile",
         score: 0
     },
     millia: {
@@ -57,6 +93,15 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "yes",
+        range: ["close", "mid"],
+        stance: "no",
+        charge: "no",
+        gameplan: ["highlow", "leftright"],
+        setplay: ["oki"],
+        projectile: "special",
+        reversal: "metered",
+        resource: "no",
+        vortex: "lots",
         score: 0
     },
     chipp: {
@@ -69,6 +114,15 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "sometimes",
+        range: "close",
+        stance: "no",
+        charge: "no",
+        gameplan: ["highlow", "leftright"],
+        setplay: ["no"],
+        projectile: "limited",
+        reversal: "meterless",
+        resource: "no",
+        vortex: "lots",
         score: 0
     },
     ino: {
@@ -81,6 +135,15 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "yes",
+        range: "close",
+        stance: "no",
+        charge: "no",
+        gameplan: ["highlow"],
+        setplay: ["neutral"],
+        projectile: "standard",
+        reversal: "metered",
+        resource: "no",
+        vortex: "lots",
         score: 0
     },
     axl: {
@@ -93,10 +156,19 @@ characters = {
         zoning: 1.0,
         rushdown: 0.0,
         oneplayer: "no",
+        range: ["mid", "long"],
+        stance: "yes",
+        charge: ["sometimes", "yes"],
+        gameplan: ["frametrap", "risc"],
+        setplay: ["neutral"],
+        projectile: "no",
+        reversal: "meterless",
+        resource: "no",
+        vortex: "neutral",
         score: 0
     },
     zato: {
-        name: "Zato-1",
+        name: "Zato=1",
         playstyle: "rewarding",
         moral_system: "neutral",
         gender: "male",
@@ -105,6 +177,15 @@ characters = {
         zoning: 0.25,
         rushdown: 0.75,
         oneplayer: "yes",
+        range: ["mid", "all"],
+        stance: "yes",
+        charge: "no",
+        gameplan: ["risc", "grab"],
+        setplay: ["neutral"],
+        projectile: "limited",
+        reversal: "metered",
+        resource: ["meter","projectile"],
+        vortex: "lots",
         score: 0
     },
     pot: {
@@ -117,6 +198,15 @@ characters = {
         zoning: 0.5,
         rushdown: 0.5,
         oneplayer: "no",
+        range: ["close", "mid"],
+        stance: "no",
+        charge: "yes",
+        gameplan: "grab",
+        setplay: "no",
+        projectile: "no",
+        reversal: "metered",
+        resource: "no",
+        vortex: "neutral",
         score: 0
     },
     ramlethal: {
@@ -129,6 +219,15 @@ characters = {
         zoning: 0.75,
         rushdown: 0.25,
         oneplayer: "no",
+        range: ["mid", "long"],
+        stance: "no",
+        charge: "no",
+        gameplan: ["highlow", "risc"],
+        setplay: "no",
+        projectile: "standard",
+        reversal: "metered",
+        resource: "ammo",
+        vortex: "neutral",
         score: 0
     },
     leo: {
@@ -141,6 +240,15 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "sometimes",
+        range: "close",
+        stance: "yes",
+        charge: "yes",
+        gameplan: ["highlow", "frametrap", "leftright"],
+        setplay: "neutral",
+        projectile: "standard",
+        reversal: "meterless",
+        resource: "no",
+        vortex: "neutral",
         score: 0
     },
     anji: {
@@ -153,6 +261,15 @@ characters = {
         zoning: 0.25,
         rushdown: 0.75,
         oneplayer: "no",
+        range: "mid",
+        stance: "yes",
+        charge: "no",
+        gameplan: ["frametrap"],
+        setplay: ["neutral", "oki"],
+        projectile: "limited",
+        reversal: "metered",
+        resource: "no",
+        vortex: "projectile",
         score: 0
     },
     nago: {
@@ -165,6 +282,15 @@ characters = {
         zoning: 0.75,
         rushdown: 0.25,
         oneplayer: "no",
+        range: ["mid", "long"],
+        stance: "yes",
+        charge: "no",
+        gameplan: ["frametrap", "risc"],
+        setplay: "no",
+        projectile: "limited",
+        reversal: "metered",
+        resource: "meter",
+        vortex: "neutral",
         score: 0
     },
     giovanna: {
@@ -177,12 +303,19 @@ characters = {
         zoning: 0.0,
         rushdown: 1.0,
         oneplayer: "sometimes",
+        range: "close",
+        stance: "no",
+        charge: "no",
+        gameplan: ["frametrap", "risc"],
+        setplay: "no",
+        projectile: "no",
+        reversal: "meterless",
+        resource: "no",
+        vortex: "neutral",
         score: 0
     }
-
-
-
 }
+
 function reset_characters() {
     for (var char in characters) {
         characters[char].score = 0;
