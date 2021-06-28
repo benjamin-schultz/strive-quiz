@@ -1,9 +1,8 @@
-# Guilty Gear Strive Character Quiz
-
 <head>
 <script type="text/javascript" src="questions.js"></script>
 <script type="text/javascript" src="characters.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 ## Questions
@@ -114,17 +113,20 @@
 <label><input type="radio" id="lots" name="vortex"> I want to have so many mixup options that the opponent will have to make a big guess on wakeup or risk getting blown up</label><br>
 <label><input type="radio" id="none" name="vortex"> No preference</label><br><br>
 
-<button id="get_results" onclick="get_results();">Get Results</button>
+<button id="get_results" onclick="get_results();" class="btn">Get Results</button>
 
 <div id="modal" class="w3-modal">
     <div class="w3-modal-content">
         <div class="w3-container">
             <span onclick="closeModal();" class="w3-button w3-display-topright">&times;</span>
             <div id="modal_contents">
-            <img id= "winner_img" src=""/>
-            <p id="winner_name"></p><br>
-            <p> Other Characters you may like:</p>
-            <p id="others"></p>
+                <br>
+                <div class="winner">
+                    <img id= "winner_img" src=""/>
+                    <p id="winner_name" class="modal_text"></p><br>
+                </div>
+                <p class="modal_text"> Other Characters you may like:</p>
+                <p id="others" class ="modal_text"></p>
             </div>
         </div>
     </div>
