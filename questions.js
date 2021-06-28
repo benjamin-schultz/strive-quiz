@@ -26,11 +26,16 @@ function get_results() {
 
     var winner = check_winner();
     var name = winner[0].name;
-    var img = document.createElement("img");
-    img.src = winner[0].image; 
-    var src = document.getElementById("header");
-    src.appendChild(img);
-    document.getElementById("results_label").innerHTML = "<a href=https://www.dustloop.com/wiki/index.php?title=GGST/" + name.replace(" ", "_") + ">" + name + "</a>";
+    var img = document.getElementById("winner_img");
+    img.src = winner[0].image;
+    var text = document.getElementById("winner_name");
+    text.innerHTML = "<a href=https://www.dustloop.com/wiki/index.php?title=GGST/" + name.replace(" ", "_") + ">" + name + "</a>";
+    var name1 = winner[1].name;
+    var name2 = winner[2].name;
+    var others = document.getElementById("others");
+    others.innerHTML = "<a href=https://www.dustloop.com/wiki/index.php?title=GGST/" + name1.replace(" ", "_") + ">" + name1 + "</a><br> \
+                        <a href=https://www.dustloop.com/wiki/index.php?title=GGST/" + name2.replace(" ", "_") + ">" + name2 + "</a><br>";
+
     openModal();
 };
 

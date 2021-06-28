@@ -112,20 +112,20 @@
 <label><input type="radio" id="neutral" name="vortex"> The same options I would have starting a neutral blockstring is fine</label><br>
 <label><input type="radio" id="projectile" name="vortex"> I want the setplay/projectile pressure as they are getting up</label><br>
 <label><input type="radio" id="lots" name="vortex"> I want to have so many mixup options that the opponent will have to make a big guess on wakeup or risk getting blown up</label><br>
-<label><input type="radio" id="none" name="vortex"> No preference</label>
+<label><input type="radio" id="none" name="vortex"> No preference</label><br><br>
 
 <button id="get_results" onclick="get_results();">Get Results</button>
-<br>
-<div id="header">
-<label id="results_label">Results go here</label>
-</div>
-<br>
 
 <div id="modal" class="w3-modal">
     <div class="w3-modal-content">
         <div class="w3-container">
             <span onclick="closeModal();" class="w3-button w3-display-topright">&times;</span>
-            <p>test</p>
+            <div id="modal_contents">
+            <img id= "winner_img" src=""/>
+            <p id="winner_name"></p><br>
+            <p> Other Characters you may like:</p>
+            <p id="others"></p>
+            </div>
         </div>
     </div>
 </div>
