@@ -25,7 +25,19 @@ function get_results() {
     }
 
     var winner = check_winner();
-    document.getElementById("results_label").innerHTML = winner[0].name;
+    var name = winner[0].name;
+    var img = document.createElement("img");
+    img.src = winner[0].image; 
+    var src = document.getElementById("header");
+    src.appendChild(img);
+    document.getElementById("results_label").innerHTML = "<a href=https://www.dustloop.com/wiki/index.php?title=GGST/" + name.replace(" ", "_") + ">" + name + "</a>";
+    openModal();
 };
 
+function openModal() {
+    document.getElementById('modal').style.display='block';
+}
 
+function closeModal() {
+    document.getElementById('modal').style.display='none';
+}

@@ -1,6 +1,7 @@
 characters = {  
     sol: {
         name: "Sol Badguy",
+        image: "https://www.dustloop.com/wiki/images/7/75/GGST_Sol_Badguy_Icon.png",
         playstyle: "prepared",
         moral_system: "grey",
         gender: "male",
@@ -22,6 +23,7 @@ characters = {
     },
     ky: {
         name: "Ky Kiske",
+        image: "https://www.dustloop.com/wiki/images/d/d8/GGST_Ky_Kiske_Icon.png",
         playstyle: "prepared",
         moral_system: "good",
         gender: "male",
@@ -43,6 +45,7 @@ characters = {
     },
     May: {
         name: "May",
+        image: "https://www.dustloop.com/wiki/images/5/51/GGST_May_Icon.png",
         playstyle: "rewarding",
         moral_system: "good",
         gender: "female",
@@ -64,6 +67,7 @@ characters = {
     },
     faust: {
         name: "Faust",
+        image: "https://www.dustloop.com/wiki/images/f/f7/GGST_Faust_Icon.png",
         playstyle: "specialist",
         moral_system: "neutral",
         gender: "male",
@@ -85,6 +89,7 @@ characters = {
     },
     millia: {
         name: "Millia Rage",
+        image: "https://www.dustloop.com/wiki/images/d/d8/GGST_Millia_Rage_Icon.png",
         playstyle: "specialist",
         moral_system: "grey",
         gender: "female",
@@ -106,6 +111,7 @@ characters = {
     },
     chipp: {
         name: "Chipp Zanuff",
+        image: "https://www.dustloop.com/wiki/images/9/94/GGST_Chipp_Zanuff_Icon.png",
         playstyle: "prepared",
         moral_system: "good",
         gender: "male",
@@ -127,6 +133,7 @@ characters = {
     },
     ino: {
         name: "I-No",
+        image: "https://www.dustloop.com/wiki/images/9/94/GGST_I-No_Icon.png",
         playstyle: "rewarding",
         moral_system: "evil",
         gender: "female",
@@ -148,6 +155,7 @@ characters = {
     },
     axl: {
         name: "Axl Low",
+        image: "https://www.dustloop.com/wiki/images/b/b6/GGST_Axl_Low_Icon.png",
         playstyle: "specialist",
         moral_system: "neutral",
         gender: "male",
@@ -168,7 +176,8 @@ characters = {
         score: 0
     },
     zato: {
-        name: "Zato=1",
+        name: "Zato-1",
+        image: "https://www.dustloop.com/wiki/images/5/51/GGST_Zato-1_Icon.png",
         playstyle: "rewarding",
         moral_system: "neutral",
         gender: "male",
@@ -190,6 +199,7 @@ characters = {
     },
     pot: {
         name: "Potemkin",
+        image: "https://www.dustloop.com/wiki/images/f/f5/GGST_Potemkin_Icon.png",
         playstyle: "rewarding",
         moral_system: "neutral",
         gender: "male",
@@ -211,6 +221,7 @@ characters = {
     },
     ramlethal: {
         name: "Ramlethal Valentine",
+        image: "https://www.dustloop.com/wiki/images/f/fb/GGST_Ramlethal_Valentine_Icon.png",
         playstyle: "rewarding",
         moral_system: "neutral",
         gender: "female",
@@ -232,6 +243,7 @@ characters = {
     },
     leo: {
         name: "Leo Whitefang",
+        image: "https://www.dustloop.com/wiki/images/6/64/GGST_Leo_Whitefang_Icon.png",
         playstyle: "rewarding",
         moral_system: "good",
         gender: "male",
@@ -253,6 +265,7 @@ characters = {
     },
     anji: {
         name: "Anji Mito",
+        image: "https://www.dustloop.com/wiki/images/b/b2/GGST_Anji_Mito_Icon.png",
         playstyle: "specialist",
         moral_system: "neutral",
         gender: "male",
@@ -274,6 +287,7 @@ characters = {
     },
     nago: {
         name: "Nagoriyuki",
+        image: "https://www.dustloop.com/wiki/images/2/2c/GGST_Nagoriyuki_Icon.png",
         playstyle: "specialist",
         moral_system: "evil",
         gender: "male",
@@ -295,6 +309,7 @@ characters = {
     },
     giovanna: {
         name: "Giovanna",
+        image: "https://www.dustloop.com/wiki/images/4/41/GGST_Giovanna_Icon.png",
         playstyle: "prepared",
         moral_system: "neutral",
         gender: "female",
@@ -344,7 +359,7 @@ function check_numbers(char, result) {
 function check_winner() {
     var winners = [];
     for (var char in characters) {
-        winners.push({score: characters[char].score, name: characters[char].name}); 
+        winners.push({score: characters[char].score, name: characters[char].name, image: characters[char].image}); 
     }
     winners.sort((a, b) => b.score - a.score);
     return winners;
