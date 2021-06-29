@@ -74,7 +74,7 @@ If you don't understand a word, try clicking on it!
 <label><input type="radio" id="none" name="stance"> No preference</label><br><br>
 
 ### 11 - Are you ok with <a href="https://glossary.infil.net/?t=charge" target="_blank" >charge</a> motions for your <a href="https://glossary.infil.net/?t=special_move" target="_blank" >special moves?</a>
-<label><input type="radio" id="yes" name="charge"> I like using them for a lot for my <a href="https://glossary.infil.net/?t=combo" target="_blank">combo</a>, <a href="https://glossary.infil.net/?t=spacing" target="_blank">spacing</a>, and <a href="https://glossary.infil.net/?t=setup" target="_blank">setups</a></label><br>
+<label><input type="radio" id="yes" name="charge"> I like using them for a lot for my <a href="https://glossary.infil.net/?t=combo" target="_blank">combo</a>, <a href="https://glossary.infil.net/?t=space" target="_blank">spacing</a>, and <a href="https://glossary.infil.net/?t=setup" target="_blank">setups</a></label><br>
 <label><input type="radio" id="sometimes" name="charge"> If it is just for the occasional <a href="https://glossary.infil.net/?t=neutral" target="_blank" >neutral</a> / defensive use, they are cool with me</label><br>
 <label><input type="radio" id="strong_no" name="charge"> I want to use a character that has 0 <a href="https://glossary.infil.net/?t=charge" target="_blank" >charge</a> motions for their <a href="https://glossary.infil.net/?t=special_move" target="_blank" >special moves</a></label><br>
 <label><input type="radio" id="none" name="charge"> No preference</label><br><br>
@@ -84,7 +84,7 @@ If you don't understand a word, try clicking on it!
 <label><input type="radio" id="risc" name="gameplan"> <a href="https://glossary.infil.net/?t=RISC" target="_blank">RISC</a> / <a href="https://glossary.infil.net/?t=Blockstring" target="_blank">Blockstring</a> Pressure</label><br>
 <label><input type="radio" id="grab" name="gameplan"> <a href="https://glossary.infil.net/?t=Command_throw" target="_blank" >Command Grab</a></label><br>
 <label><input type="radio" id="highlow" name="gameplan"> The High/Low <a href="https://glossary.infil.net/?t=mixup" target="_blank">mixup</a></label><br>
-<label><input type="radio" id="leftright" name="gameplan"> The Left/Right <a href="https://glossary.infil.net/?t=mixup" target="_blank">mixup</a>/label><br>
+<label><input type="radio" id="leftright" name="gameplan"> The Left/Right <a href="https://glossary.infil.net/?t=mixup" target="_blank">mixup</a></label><br>
 <label><input type="radio" id="none" name="gameplan"> No preference</label><br><br>
 
 ### 13 - Are you ok with having <a href="https://glossary.infil.net/?t=setplay" target="_blank" >setplay</a> in your moveset?
@@ -113,7 +113,7 @@ If you don't understand a word, try clicking on it!
 ### 17 - How good do you want your <a href="https://glossary.infil.net/?t=vortex" target="_blank">vortex</a> / <a href="https://glossary.infil.net/?t=knockdown" target="_blank">knockdown</a> <a href="https://glossary.infil.net/?t=pressure" target="_blank">pressure</a> to be?
 <label><input type="radio" id="neutral" name="vortex"> The same options I would have starting a <a href="https://glossary.infil.net/?t=neutral" target="_blank">neutral</a> <a href="https://glossary.infil.net/?t=blockstring" target="_blank">blockstring</a> is fine</label><br>
 <label><input type="radio" id="projectile" name="vortex"> I want the <a href="https://glossary.infil.net/?t=setplay" target="_blank">setplay</a> / <a href="https://glossary.infil.net/?t=projectile" target="_blank">projectile</a> <a href="https://glossary.infil.net/?t=pressure" target="_blank">pressure</a> as they are getting up</label><br>
-<label><input type="radio" id="lots" name="vortex"> I want to have so many mixup options that the opponent will have to make a big guess on <a href="https://glossary.infil.net/?t=wakeup" target="_blank">wakeup</a> or risk getting blown up</label><br>
+<label><input type="radio" id="lots" name="vortex"> I want to have so many <a href="https://glossary.infil.net/?t=mixup" target="_blank">mixup</a> options that the opponent will have to make a big guess on <a href="https://glossary.infil.net/?t=wakeup" target="_blank">wakeup</a> or risk getting blown up</label><br>
 <label><input type="radio" id="none" name="vortex"> No preference</label><br><br>
 
 <button id="get_results" onclick="get_results();" class="btn">Get Results</button>
