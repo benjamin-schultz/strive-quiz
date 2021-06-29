@@ -43,7 +43,7 @@
 <label><input type="radio" id="strong_yes" name="zoning"> Yes! Very much so</label><br>
 <label><input type="radio" id="yes" name="zoning"> Yes</label><br>
 <label><input type="radio" id="none" name="zoning"> No preference</label><br>
-<label><input type="radio" id="no" name="zoning"> No/no preference</label><br>
+<label><input type="radio" id="no" name="zoning"> No</label><br>
 <label><input type="radio" id="strong_no" name="zoning"> Hell NO</label><br><br>
 
 ### 7 - Do you have fun playing with a rushdown playstyle?
