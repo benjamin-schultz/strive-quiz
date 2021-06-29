@@ -49,7 +49,7 @@ characters = {
         playstyle: "rewarding",
         moral_system: "good",
         gender: "female",
-        favourite: ["neutral", "combos"],
+        favourite: ["combos"],
         important: ["mobility", "damage"],
         zoning: 0.25,
         rushdown: 0.75,
@@ -58,7 +58,7 @@ characters = {
         stance: "no",
         charge: "yes",
         gameplan: ["grab", "highlow"],
-        setplay: ["neutral", "oki"],
+        setplay: ["neutral"],
         projectile: ["limited", "special"],
         reversal: "metered",
         resource: "no",
@@ -210,7 +210,7 @@ characters = {
         oneplayer: "no",
         range: ["close", "mid"],
         stance: "no",
-        charge: "yes",
+        charge: ["sometimes", "yes"],
         gameplan: "grab",
         setplay: "no",
         projectile: "no",
@@ -353,7 +353,13 @@ function check_strings(char, result) {
 }
 
 function check_numbers(char, result) {
-    characters[char].score += result.amount * characters[char][result.key];
+    multiplier = result.amount;
+    if (result.id === "none") {
+        return;
+    } else if (result.id === "no") {
+        multiplier *= -1;
+    }
+    characters[char].score += multiplier * characters[char][result.key];
 }
 
 function check_winner() {
