@@ -26,7 +26,7 @@
 <label><input type="radio" id="none" name="gender"> None. Please don't factor gender into my result</label><br><br>
 
 ### 4 - When in a match, whats your favourite thing to do?
-<label><input type="radio" id="pressure" name="favourite"> Keeping the pressure on my opponent</label><br>
+<label><input type="radio" id="pressure" name="favourite"> Keeping the [pressure](glossary.infil.net/?t=pressure) on my opponent</label><br>
 <label><input type="radio" id="neutral" name="favourite"> Outmanoeuvering my foe</label><br>
 <label><input type="radio" id="mindgames" name="favourite"> Mindgames!</label><br>
 <label><input type="radio" id="combos" name="favourite"> Executing the right combos in the right situations</label><br>
