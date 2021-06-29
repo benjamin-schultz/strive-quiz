@@ -7,6 +7,8 @@
 
 ## Questions
 
+If you don't understand a word, try clicking on it!
+
 ### 1 - What's most important to you?
 <label><input type="radio" id="specialist" name="playstyle">  Doing one thing and doing it well</label><br>
 <label><input type="radio" id="prepared" name="playstyle"> Having tools for every situation</label><br>
